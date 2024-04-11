@@ -1,0 +1,7 @@
+{
+    "chatbot": {
+        "token":"",
+        "nick":"",
+        "prefix":""
+    }
+}
