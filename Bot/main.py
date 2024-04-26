@@ -34,4 +34,4 @@ class Bot(cmds.bot):
 
 
 bot = Bot()
-bot.start()
+bor
