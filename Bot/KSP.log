@@ -1,0 +1,228 @@
+[LOG 23:08:33.383] ******* Log Initiated for Kerbal Space Program - 1.12.5.3190 (WindowsPlayer x64) en-us *******
+Kerbal Space Program - 1.12.5.3190 (WindowsPlayer x64) en-us
+
+
+OS: Windows 10  (10.0.0) 64bit
+CPU: Intel(R) Core(TM) i7-14700F (28)
+RAM: 32603
+GPU: NVIDIA GeForce RTX 4060 (7957MB)
+SM: 50 (Direct3D 11.0 [level 11.1])
+RT Formats: ARGB32, Depth, ARGBHalf, Shadowmap, RGB565, ARGB4444, ARGB1555, Default, ARGB2101010, DefaultHDR, ARGB64, ARGBFloat, RGFloat, RGHalf, RFloat, RHalf, R8, ARGBInt, RGInt, RInt, BGRA32, RGB111110Float, RG32, RGBAUShort, RG16, BGRA10101010_XR, BGR101010_XR, R16
+
+
+Log started: Sun, May 26, 2024 23:08:33
+
+
+[LOG 23:08:33.396] ActionCanvas MASK: 3458764513820540928
+[LOG 23:08:33.396] AppCanvas MASK: 3458764513820540928
+[LOG 23:08:33.397] MainCanvas MASK: 3458764513820540928
+[WRN 23:08:33.683] Config in file 'C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\RestockWaterfallExpansion\SRBFX\Sounds\Solid-Lower_startup2.cfg' contains an unnamed node. Skipping.
+[WRN 23:08:34.113] Cannot create config from file 'C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\UnKerballedStart\Mod Support\_template.cfg'.
+[LOG 23:08:34.496] Load(Assembly): /ModuleManager.4.2.3
+[LOG 23:08:34.496] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\ModuleManager.4.2.3.dll
+[LOG 23:08:34.510] AssemblyLoader: KSPAssembly 'ModuleManager' V2.5.0
+[LOG 23:08:34.510] Load(Assembly): 000_ClickThroughBlocker/Plugins/ClickThroughBlocker
+[LOG 23:08:34.510] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\000_ClickThroughBlocker\Plugins\ClickThroughBlocker.dll
+[LOG 23:08:34.510] AssemblyLoader: KSPAssembly 'ClickThroughBlocker' V2.1.10
+[LOG 23:08:34.510] Load(Assembly): 000_Harmony/0Harmony
+[LOG 23:08:34.510] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\000_Harmony\0Harmony.dll
+[LOG 23:08:34.514] Load(Assembly): 000_Harmony/HarmonyInstallChecker
+[LOG 23:08:34.514] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\000_Harmony\HarmonyInstallChecker.dll
+[LOG 23:08:34.514] AssemblyLoader: KSPAssembly 'HarmonyKSP' V1.0.0
+[LOG 23:08:34.515] Load(Assembly): 000_Toolbar/Plugins/aaa_Toolbar
+[LOG 23:08:34.515] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\000_Toolbar\Plugins\aaa_Toolbar.dll
+[LOG 23:08:34.515] AssemblyLoader: KSPAssembly 'Toolbar' V1.8.1
+[LOG 23:08:34.515] AssemblyLoader: KSPAssemblyDependency 'ClickThroughBlocker' V1.7.0
+[LOG 23:08:34.515] Load(Assembly): 001_ToolbarControl/Plugins/ToolbarControl
+[LOG 23:08:34.515] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\001_ToolbarControl\Plugins\ToolbarControl.dll
+[LOG 23:08:34.516] AssemblyLoader: KSPAssembly 'ToolbarController' V1.0.1
+[LOG 23:08:34.516] AssemblyLoader: KSPAssemblyDependency 'ClickThroughBlocker' V1.0.0
+[LOG 23:08:34.516] Load(Assembly): B9PartSwitch/Plugins/B9PartSwitch
+[LOG 23:08:34.516] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\B9PartSwitch\Plugins\B9PartSwitch.dll
+[LOG 23:08:34.516] AssemblyLoader: KSPAssembly 'B9PartSwitch' V2.20.0
+[LOG 23:08:34.516] Load(Assembly): HideEmptyTechTreeNodes/Plugins/HideEmptyTechTreeNodes
+[LOG 23:08:34.516] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\HideEmptyTechTreeNodes\Plugins\HideEmptyTechTreeNodes.dll
+[LOG 23:08:34.518] Load(Assembly): kOS/Plugins/ICSharpCode.SharpZipLib
+[LOG 23:08:34.518] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kOS\Plugins\ICSharpCode.SharpZipLib.dll
+[LOG 23:08:34.518] Load(Assembly): kOS/Plugins/kOS
+[LOG 23:08:34.518] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kOS\Plugins\kOS.dll
+[LOG 23:08:34.520] AssemblyLoader: KSPAssembly 'kOS' V1.3.0
+[LOG 23:08:34.520] Load(Assembly): kOS/Plugins/kOS.Safe
+[LOG 23:08:34.520] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kOS\Plugins\kOS.Safe.dll
+[LOG 23:08:34.521] Load(Assembly): kOS-EVA/Plugins/KerbalBot
+[LOG 23:08:34.521] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kOS-EVA\Plugins\KerbalBot.dll
+[LOG 23:08:34.521] AssemblyLoader: KSPAssemblyDependency 'RemoteTech' V1.9.0
+[LOG 23:08:34.521] Load(Assembly): kOS-EVA/Plugins/KISAutoEquip
+[LOG 23:08:34.521] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kOS-EVA\Plugins\KISAutoEquip.dll
+[LOG 23:08:34.522] AssemblyLoader: KSPAssemblyDependency 'KIS' V1.29.0
+[LOG 23:08:34.522] Load(Assembly): kOS-EVA/Plugins/kOS-EVA
+[LOG 23:08:34.522] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kOS-EVA\Plugins\kOS-EVA.dll
+[LOG 23:08:34.522] AssemblyLoader: KSPAssemblyDependency 'kOS' V1.0.0
+[LOG 23:08:34.522] Load(Assembly): kRPC/Google.Protobuf
+[LOG 23:08:34.522] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\Google.Protobuf.dll
+[LOG 23:08:34.523] Load(Assembly): kRPC/KRPC
+[LOG 23:08:34.523] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.dll
+[LOG 23:08:34.528] Load(Assembly): kRPC/KRPC.DockingCamera
+[LOG 23:08:34.528] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.DockingCamera.dll
+[LOG 23:08:34.528] Load(Assembly): kRPC/KRPC.Drawing
+[LOG 23:08:34.528] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.Drawing.dll
+[LOG 23:08:34.529] Load(Assembly): kRPC/KRPC.InfernalRobotics
+[LOG 23:08:34.529] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.InfernalRobotics.dll
+[LOG 23:08:34.529] Load(Assembly): kRPC/KRPC.IO.Ports
+[LOG 23:08:34.529] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.IO.Ports.dll
+[LOG 23:08:34.529] Load(Assembly): kRPC/KRPC.KerbalAlarmClock
+[LOG 23:08:34.529] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.KerbalAlarmClock.dll
+[LOG 23:08:34.530] Load(Assembly): kRPC/KRPC.LiDAR
+[LOG 23:08:34.530] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.LiDAR.dll
+[LOG 23:08:34.530] Load(Assembly): kRPC/KRPC.RemoteTech
+[LOG 23:08:34.530] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.RemoteTech.dll
+[LOG 23:08:34.530] Load(Assembly): kRPC/KRPC.SpaceCenter
+[LOG 23:08:34.530] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.SpaceCenter.dll
+[LOG 23:08:34.532] Load(Assembly): kRPC/KRPC.UI
+[LOG 23:08:34.532] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\kRPC\KRPC.UI.dll
+[LOG 23:08:34.532] Load(Assembly): QuickMods/QuickStart/Plugins/QuickStart
+[LOG 23:08:34.532] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\QuickMods\QuickStart\Plugins\QuickStart.dll
+[LOG 23:08:34.532] AssemblyLoader: KSPAssembly 'QuickStart' V2.2.1
+[LOG 23:08:34.533] AssemblyLoader: KSPAssemblyDependency 'ClickThroughBlocker' V1.0.0
+[LOG 23:08:34.533] Load(Assembly): ReStock/Plugins/Restock
+[LOG 23:08:34.533] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\ReStock\Plugins\Restock.dll
+[LOG 23:08:34.533] AssemblyLoader: KSPAssembly 'Restock' V0.1.0
+[LOG 23:08:34.533] Load(Assembly): Squad/Plugins/KSPSteamCtrlr
+[LOG 23:08:34.533] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\Squad\Plugins\KSPSteamCtrlr.dll
+[LOG 23:08:34.534] Load(Assembly): Waterfall/Plugins/Waterfall
+[LOG 23:08:34.534] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\Waterfall\Plugins\Waterfall.dll
+[LOG 23:08:34.534] Load(Assembly): WildBlueIndustries/EVARepairs/Plugins/EVARepairs
+[LOG 23:08:34.534] AssemblyLoader: Loading assembly at C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\WildBlueIndustries\EVARepairs\Plugins\EVARepairs.dll
+[LOG 23:08:34.536] AssemblyLoader: Loading assemblies
+[WRN 23:08:34.536] AssemblyLoader: Assembly 'KerbalBot' has not met dependency 'RemoteTech' V1.9.0
+[WRN 23:08:34.536] AssemblyLoader: Assembly 'KerbalBot' is missing 1 dependencies
+[WRN 23:08:34.536] AssemblyLoader: Assembly 'KISAutoEquip' has not met dependency 'KIS' V1.29.0
+[WRN 23:08:34.536] AssemblyLoader: Assembly 'KISAutoEquip' is missing 1 dependencies
+[ERR 23:08:34.588] ADDON BINDER: Cannot resolve assembly: kOS.Safe, Culture=neutral, PublicKeyToken=null
+
+[ERR 23:08:34.589] ADDON BINDER: Cannot resolve assembly: kOS.Safe, Culture=neutral, PublicKeyToken=null
+
+[LOG 23:08:34.607] VesselModules: Found VesselModule of type AxisGroupsModule with order 999
+[LOG 23:08:34.632] VesselModules: Found VesselModule of type CometVessel with order 999
+[LOG 23:08:34.633] VesselModules: Found VesselModule of type SuspensionLoadBalancer with order 999
+[LOG 23:08:34.634] VesselModules: Found VesselModule of type FlightIntegrator with order 0
+[LOG 23:08:34.635] VesselModules: Found VesselModule of type CommNetVessel with order 999
+[LOG 23:08:34.639] VesselModules: Found VesselModule of type kOSVesselModule with order 999
+[LOG 23:08:34.640] VesselModules: Found 6 VesselModule types
+[LOG 23:08:34.646] 
+************************************************************************
+
+Environment Info
+Win32NT 7FFFFFFFFFFFFFFF  Args: C:/BARTL/Steam/steamapps/common/Kerbal Space Program/KSP_x64.exe 
+
+Mod DLLs found:
+Stock assembly: Assembly-CSharp v0.0.0.0
+ModuleManager v4.2.3.0
+ClickThroughBlocker v2.1.10.21
+0Harmony v2.2.1.0
+HarmonyInstallChecker v2.2.1.0
+aaa_Toolbar v1.8.1.1
+ToolbarControl v0.1.9.11
+B9PartSwitch v2.20.0.0 / vv2.20.0
+HideEmptyTechTreeNodes v1.0.0.0
+ICSharpCode.SharpZipLib v0.86.0.518 / v0.86.0
+kOS v1.4.0.0
+kOS.Safe v1.4.0.0
+kOS-EVA v0.2.0.0
+Google.Protobuf v3.10.1.0 / v3.10.1+d09d649aea36f02c03f8396ba39a8d4db8a607e4
+KRPC v0.5.2.0
+KRPC.DockingCamera v0.5.2.0
+KRPC.Drawing v0.5.2.0
+KRPC.InfernalRobotics v0.5.2.0
+KRPC.IO.Ports v0.0.0.0
+KRPC.KerbalAlarmClock v0.5.2.0
+KRPC.LiDAR v0.5.2.0
+KRPC.RemoteTech v0.5.2.0
+KRPC.SpaceCenter v0.5.2.0
+KRPC.UI v0.5.2.0
+QuickStart v2.2.1.2
+Restock v0.1.0.0
+Stock assembly: KSPSteamCtrlr v0.0.1.35
+Waterfall v0.0.0.0
+EVARepairs v1.0.0.0
+
+Folders and files in GameData:
+000_ClickThroughBlocker
+000_Harmony
+000_Toolbar
+001_ToolbarControl
+B9PartSwitch
+HideEmptyTechTreeNodes
+kOS
+kOS-EVA
+kRPC
+QuickMods
+ReStock
+RestockWaterfallExpansion
+Stock folder: Squad
+
+Stock folder: SquadExpansion
+
+UnKerballedStart
+Waterfall
+WaterfallRestock
+WildBlueIndustries
+ModuleManager.4.2.3.dll
+ModuleManager.ConfigCache
+ModuleManager.ConfigSHA
+ModuleManager.Physics
+ModuleManager.TechTree
+
+************************************************************************
+
+[LOG 23:08:34.656] [AddonLoader]: Instantiating addon 'ModuleManager' from assembly 'ModuleManager'
+[LOG 23:08:34.664] [ModuleManager] Adding post patch to the loading screen 4
+[LOG 23:08:34.665] [ModuleManager] Patching started on a new thread, all output will be directed to C:\BARTL\Steam\steamapps\common\Kerbal Space Program\Logs\ModuleManager\ModuleManager.log
+[LOG 23:08:34.667] [AddonLoader]: Instantiating addon 'Startup' from assembly 'ClickThroughBlocker'
+[LOG 23:08:34.668] [AddonLoader]: Instantiating addon 'HarmonyInstallChecker' from assembly 'HarmonyKSP'
+[LOG 23:08:34.668] [AddonLoader]: Instantiating addon 'Startup' from assembly 'Toolbar'
+[LOG 23:08:34.668] [AddonLoader]: Instantiating addon 'ToolbarManager' from assembly 'Toolbar'
+[WRN 23:08:34.670] File 'C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData/toolbar-settings.dat' does not exist
+[LOG 23:08:34.676] [AddonLoader]: Instantiating addon 'ConfigInfo' from assembly 'ToolbarController'
+[LOG 23:08:34.678] [AddonLoader]: Instantiating addon 'Startup' from assembly 'ToolbarController'
+[LOG 23:08:34.678] [AddonLoader]: Instantiating addon 'RegisterToolbarBlizzyOptions' from assembly 'ToolbarController'
+[LOG 23:08:34.679] [AddonLoader]: Instantiating addon 'PrefabManagerInstant' from assembly 'B9PartSwitch'
+[LOG 23:08:34.680] [B9PartSwitch.UI.TooltipHelper] created subtype info tooltip prefab
+[LOG 23:08:34.680] [AddonLoader]: Instantiating addon 'TelnetMainServer' from assembly 'kOS'
+[LOG 23:08:34.680] [AddonLoader]: Instantiating addon 'Bootstrapper' from assembly 'kOS'
+[LOG 23:08:34.681] [AddonLoader]: Instantiating addon 'AssetManager' from assembly 'kOS'
+[LOG 23:08:34.681] [AddonLoader]: Instantiating addon 'KACEventHandler' from assembly 'kOS'
+[LOG 23:08:34.682] [AddonLoader]: Instantiating addon 'EvaControllerPatch' from assembly 'kOS-EVA'
+[LOG 23:08:34.898] [AddonLoader]: Instantiating addon 'ServicesChecker' from assembly 'KRPC'
+[LOG 23:08:34.899] [AddonLoader]: Instantiating addon 'Startup' from assembly 'QuickStart'
+[LOG 23:08:34.899] [AddonLoader]: Instantiating addon 'QLoading' from assembly 'QuickStart'
+[LOG 23:08:34.900] [AddonLoader]: Instantiating addon 'QuickStart' from assembly 'QuickStart'
+[LOG 23:08:34.900] QuickStart.Awake, PATH: C:/BARTL/Steam/steamapps/common/Kerbal Space Program/GameData/QuickMods/QuickStart/Plugins/../
+[LOG 23:08:34.900] [AddonLoader]: Instantiating addon 'RegisterToolbar' from assembly 'QuickStart'
+[LOG 23:08:34.900] [AddonLoader]: Instantiating addon 'InstallChecker' from assembly 'Restock'
+[LOG 23:08:34.900] [AddonLoader]: Instantiating addon 'ResourceBlacklist' from assembly 'Restock'
+[LOG 23:08:34.901] [AddonLoader]: Instantiating addon 'KSPSteamController' from assembly 'KSPSteamCtrlr'
+[LOG 23:08:34.901] [AddonLoader]: Instantiating addon 'Waterfall' from assembly 'Waterfall'
+[LOG 23:08:34.901] [AddonLoader]: Instantiating addon 'WaterfallData' from assembly 'Waterfall'
+[LOG 23:08:34.902] [AddonLoader]: Instantiating addon 'EVARepairsLoader' from assembly 'EVARepairs'
+[LOG 23:08:34.902] [AddonLoader]: Instantiating addon 'EVARepairsAppButton' from assembly 'EVARepairs'
+[WRN 23:08:35.023] Config in file 'C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\RestockWaterfallExpansion\SRBFX\Sounds\Solid-Lower_startup2.cfg' contains an unnamed node. Skipping.
+[WRN 23:08:35.455] Cannot create config from file 'C:\BARTL\Steam\steamapps\common\Kerbal Space Program\GameData\UnKerballedStart\Mod Support\_template.cfg'.
+[LOG 23:08:35.857] Load(Audio): kOS/GFX/error
+[LOG 23:08:35.882] [ClickThroughBlocker] Version ClickThroughBlocker, Version=2.1.10.21, Culture=neutral, PublicKeyToken=null
+[LOG 23:08:35.883] [Toolbar Plugin for Kerbal Space Program] Version aaa_Toolbar, Version=1.8.1.1, Culture=neutral, PublicKeyToken=null
+[WRN 23:08:35.884] File 'C:/BARTL/Steam/steamapps/common/Kerbal Space Program/KSP_x64_Data/../GameData/001_ToolbarControl/PluginData/Debug.cfg' does not exist
+[LOG 23:08:35.884] [ToolbarControl] Version ToolbarControl, Version=0.1.9.11, Culture=neutral, PublicKeyToken=null
+[LOG 23:08:35.893] kOS: Init Logger
+[LOG 23:08:35.894] kOS: AssemblyWalkAttribute begin walking
+[WRN 23:08:35.896] kOS: Found attribute on type ConnectivityManager
+[WRN 23:08:35.896] kOS: Found attribute on type BindingManager
+[WRN 23:08:35.896] kOS: Found attribute on type AddonManager
+[WRN 23:08:35.898] kOS: Found attribute on type KOSNomenclature
+[WRN 23:08:35.898] kOS: Found attribute on type FunctionManager
+[LOG 23:08:35.926] kOS: Attribute AssemblyWalkAttribute(kOS.Communication.IConnectivityManager) loaded 3 objects.
+[LOG 23:08:35.926] kOS: Attribute AssemblyWalkAttribute(kOS.Safe.Binding.BindingAttribute) loaded 12 objects.
+[LOG 23:08:35.926] kOS: Attribute AssemblyWalkAttribute(kOS.AddOns.kOSAddonAttribute) loaded 6 objects.
+[LOG 23:08:35.926] kOS: Attribute AssemblyWalkAttribute(kOS.Safe.Encapsulation.Structure) loaded 140 objects.
+[LOG 23:08:35.926] kOS: Attribute AssemblyWalkAttribute(kOS.Safe.Function.FunctionAttribute) loaded 117 objects.
+[LOG 23:08:35.968] 5/26/2024 11:08:35 PM,kOS-KACWrapper,Attempting to Grab KAC Types...
