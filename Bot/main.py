@@ -1,6 +1,8 @@
 import os, json, sys, logging
 from twitchio.ext import commands as cmds
 import util.KSP as game
+import util.KOs as kos
+import util.kRPC as krpc
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -13,6 +15,9 @@ if os.path.exists('config.json'):
 else:
     log.critical('Config file not found! You can download example file from here: https://github.com/Crisenpuer/YP-KSP/config-example.json', __name__, 5)
     sys.exit()
+
+KOS_writer = None
+KOS_reader = None
 
 CFG_CHATBOT = CFG["chatbot"]
 CFG_KSP = CFG["ksp"]
@@ -28,10 +33,14 @@ def wrap_command(func):
 
 bot = cmds.Bot(token=CFG_CHATBOT["token"], prefix=CFG_CHATBOT["prefix"], initial_channels=CFG_CHATBOT["init-channels"])
 
+async def event_message(self, message):
+        if message.content.startswith('/me'):
+            log.info(f'/me message from %s: %s', message.author.display_name, message.content)
+
 @bot.command(name='restartbot')
 @wrap_command
 async def cmd_restartbot(ctx: cmds.Context) -> None:
-    log.info(f"Restarting the bot (request by {ctx.author.name})")
+    log.info(f"Restarting the bot (request by %s)", {ctx.author.display_name})
     await ctx.send("Restarting bot...")
     if sys.platform.startswith('win'):
         os.system('cls')
@@ -77,6 +86,17 @@ async def cmd_startksp(ctx:cmds.Context) -> None:
             ctx.send("Could not kill KSP")
     else:
         ctx.send("You don't have permission to use that command")
+
+@bot.command(name='reconnectkos')
+@wrap_command
+async def cmd_reconnectkos(ctx:cmds.Context) -> None: # fix this shit Crisen 27.05
+    global KOS_writer
+    if type(KOS_writer) != None:
+        kos.connect('127.0.0.1', 5410)
+        await ctx.send('Connecting to kOS...')
+    else:
+        await ctx.send('Already connected to kOS...')
+
 
 log.info("Starting the bot...")
 bot.run()
