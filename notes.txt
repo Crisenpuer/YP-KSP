@@ -1,0 +1,56 @@
+Command,        Status
+craftlist,      In testing...
+vessels,        In testing...
+upload,         TBA
+kerbal,         TBA
+progress,       TBA
+discord,        TBA
+help,           TBA
+commands,       TBA
+changes,        TBA
+reconnect,      TBA
+crew,           TBA
+song,           TBA
+jinx,           TBA
+launchsite,     TBA
+kspmods,        TBA
+cpu,            Ready
+launchcraft,    TBA
+f2,             TBA
+f5,             TBA
+f9,             TBA
+recoverrevert,  TBA
+camera,         TBA
+mapfilter,      TBA
+altimeter,      TBA
+status,         TBA
+switchvessel,   TBA
+crewtransfer,   TBA
+tutorial,       TBA
+warp,           TBA
+vesselinfo,     TBA
+f1,             TBA
+runscript,      TBA
+flag,           TBA
+github,         Not gonna add
+
+
+
+// [0] SHIP
+// [1] PLANE
+// [2] LANDER
+// [3] ROVER
+// [4] BASE
+// [5] PROBE
+// [6] RELAY
+// [7] STATION
+// [8] EVA
+// [9] DEBRIS
+
+
+
+
+
+TODO 4.11.24
+- Finish !kerbal code
+- Add -popupwindow to $startksp
